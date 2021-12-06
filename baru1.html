@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>website dalam</title>
+        <!--untuk bisa dipahami oleh browser-->
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="baru.html">utama bre</a></li>
+                <li><a href="baru1.html">kedua bre</a></li>
+                <li><a href="terbaru.html">ketiga bre</a></li>
+            </ul>
+        </nav>
+
+<!--cara buat tabel yaitu table, border="", tr atau table baris, th sebagai buat utama, dan td sebagai anggota-->
+        <div>
+            <table border="2">
+                <caption>tabel data diri</caption>  <!--digunakan untuk menulis judul tabel-->
+                <tr>
+                    <th>nama</th>  <!--keterangan tabel-->
+                    <th>tinggal</th>
+                </tr>
+                <tr>
+                    <td>Niko</td>   <!--isi tabel-->
+                    <td>Merauke</td>
+                </tr>
+                <tr>
+                    <td>hello</td>  <!--isi tabel-->
+                    <td>Jawa</td>
+                </tr>
+<!--kata ul sebagai list menggunakan titik bulat. kata ol sebagai angka pada list dan dl sebagai nama dan deskripsinya-->
+        <div>
+            <ul>  <!--tanpa penomoran-->
+                <li>sumimasen</li>
+                <li>hai</li>
+            </ul>
+        </div>
+        <div>
+            <ol> <!--penomoran-->
+                <li>welcome</li>
+                <li>oke</li>
+            </ol>
+        </div>
+        <div>
+            <dl>
+                <dt>aku</dt>
+                <dd>aku adalah seorang bilioner</dd>
+            </dl>
+        </div>
+<!--cara membuat pencarian, form, bisa input atau textarea, place holder digunakan untuk baground pencarian dan bisa menaruh value di input -->
+
+<!--penggunaan label digunakan untuk menamai tombol pencarian dan pada label ada for yang berguna untuk ketika kita mengklik pada nama akan 
+langsung ke kotak pencarian-->
+        <div>
+            <form>
+                <label for="cek">Nama</label>  <!--agar bisa diklik langsung menuju pencarian-->
+                <input type="text" placeholder="tulis disini" id="cek"> 
+                <div>
+                    <label for="cek1">resume</label><br>
+                   <textarea cols="100" rows="4" id="cek1">aku adalah...</textarea>
+                </div>
+            </form>
+        </div>
+    <!--cara membuat checkbox dan radio menambahkan name dan value-->
+
+        <fieldset>
+            <legend>pilih hobi</legend>
+
+            <form>                   
+                <label>hobi</label><br>
+                <input type="checkbox" name="hobiii" value="0">bernyanyi
+                <input type="checkbox" name="hobiii" value="1">menggambar            
+                <label>makanan</label><br>
+                <input type="radio" name="makanannn" value="0">ayam
+                <input type="radio" name="makanannn" value="1">bebek
+                <br>
+                <br>
+                <br>
+                <label>jenis Hewan</label>
+                <select>
+                    <optgroup label="ovipar">
+                        <option value="0">ayam</option>  <!--wajib menggunakan value-->
+                        <option value="1">bebek</option>
+                    </optgroup>
+                    <optgroup label="vipar">
+                        <option value="o">harimau</option>
+                        <option value="1">singa</option>
+                    </optgroup>
+                </select>
+                <input type="submit">  <!--sebagai tombol submit-->
+            </form>
+        </fieldset>
+    </body>
+</html>

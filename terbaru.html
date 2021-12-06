@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>website terbaru</title>
+        <!--untuk bisa dipahami oleh browser-->
+        <meta charset="UTF-8">       
+        <style>
+            main {
+                float: left;
+                width: 50%;
+        }
+            footer {
+                float: left;
+                width: 80%;
+        }
+
+        </style>
+        <link rel="stylesheet" href="dekor.css">
+    </head>
+    <body>
+<!--ini bagian header-->
+        <header>
+            <h1>Ini bukan sembarang website</h1>
+            <h1>darkweb</h1>
+        </header>
+
+<!--ini bagian navigasi-->
+        <nav>
+            <ul>
+
+                <li><a href="baru.html">utama bre</a></li>
+                <li><a href="baru1.html">kedua bre</a></li>
+                <li><a href="terbaru.html">ketiga bre</a></li>
+            </ul>
+        </nav>
+        
+<!--ini bagian konten atau main-->
+        <main>     
+<!--didalam main kita juga bisa menaruh article yang berfungsi seperti isi body website yang berisi main, aside atau sebagainya dan ada section pengganti div-->  
+            <figure>
+                <img src="fotoku.jpg" alt="foto handsome" width="200" height="200">
+                <figcaption>
+                    ini foto resmi gue
+                    <a href="baru.html">download disini</a>
+                </figcaption>
+            </figure>
+
+            <details>  <!--jika ingin langsung terbuka bisa ditambahkan 'open'-->
+                <summary>
+                    silahkan buka
+                </summary>
+                <p>hey bro ada apa</p>
+            </details>
+
+            <!--berbentuk kotak-->
+            <dialog open>  <!--WAJIB MENGGUNAKAN OPEN-->
+                hallo semua apa kabar
+            </dialog>
+        </main>
+
+<!--ini bagian konten disamping-->
+        <aside> 
+            <!--untuk tombol search khusus-->
+            <form> 
+                <input type="email" name="email" placeholder="masukkan email" required>
+                <input type="submit">
+            </form> 
+            <br>
+            <br>
+            <!--cara menampilkan video-->
+            <video width="200" height="200" controls autoplay loop muted poster="fotoku.jpg">  
+                <source src="videoku.mp4" type="video/mp4">
+            </video>
+        </aside>
+
+<!--ini bagian paling bawah atau footer-->
+        <footer>
+            <p>&copy;</p>    
+    </body>
+
+</html>
